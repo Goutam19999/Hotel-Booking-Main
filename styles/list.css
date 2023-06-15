@@ -6,4 +6,15 @@ img {
     height: 200px;
     width: 200px;
 }
+#headerdiv {
+    background-color: rosybrown;
+}
+#listmenu div{
+ background-color: rgb(132,136,139);
+ width: 40%;
+ margin: 2%;
+}
+#socialmedia {
+    background-color: rosybrown;
+}
     

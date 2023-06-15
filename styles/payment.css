@@ -2,3 +2,29 @@ img {
     height: 500px;
     width: 500px;
 }
+#containdiv{
+    background-color: rgb(132,136,139);
+    height: 20%;
+    width: 50%;
+  
+}
+#innerdiv{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+#persiondetails{
+    margin: 2%;
+}
+#headerdiv ,#socialmedia {
+    background-color: rosybrown;
+}
+#Tariff{
+    border: 1px solid black ;
+    
+    padding: 1%;
+    margin: 2%;
+   border-radius: 5px;
+   
+}

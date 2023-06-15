@@ -1,4 +1,39 @@
 img{ 
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
 }
+
+#headerdiv {
+    background-color: rosybrown;
+}
+#innerdiv{
+   }
+#socialmedia {
+    background-color: rosybrown;
+}
+#seach{
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg )  ;
+    height: 380px;
+    width: cover;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+   
+   
+#citylist{
+    margin-left: 15%;
+    margin-right: 15%;
+     
+}
+#citylist img{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+   
+}
+     
+
+
+    

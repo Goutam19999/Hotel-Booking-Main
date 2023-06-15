@@ -2,3 +2,13 @@ img{
     height: 500px;
     width: 500px;
 }
+#headerdiv ,#socialmedia {
+    background-color: rosybrown;
+}
+#innerdiv {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+#innerdiv img {
+    padding-top: 1%;
+}
