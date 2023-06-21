@@ -3,13 +3,57 @@ img{
     width: 130px;
 }
 
-#headerdiv {
-    background-color: rosybrown;
+#headerdiv { 
+  
+    width: 100vw;
+    background-color:rosybrown ;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    
+} 
+#headerdiv a {
+    color: black;
 }
-#innerdiv{
-   }
-#socialmedia {
-    background-color: rosybrown;
+#login {
+    margin-right: 3%;
+    margin-top: 2% ;
+    margin-bottom: 2%;
+    text-decoration: none;
+
+
+}
+#footerdiv{
+    background-color:rosybrown;
+    text-align: center;
+    position: sticky;
+    bottom: 0px;
+}
+#contactdiv{
+    float: left;
+    margin: 1%;
+    
+}
+#contactdiv a {
+    text-decoration: none;
+    color: black;
+}
+#text1{
+    display: inline-block;   
+}
+
+#socialmedia{
+    float: right;
+ padding: 2px;
+}
+#socialmedia a{
+    text-decoration: none;
+}
+#contactdiv{
+    float: left;
+    margin: 1%;
+    
 }
 #seach{
     background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg )  ;
@@ -17,13 +61,24 @@ img{
     width: cover;
 background-position: center;
 background-size: cover;
-background-attachment: fixed;
+justify-content: center;
+}
+#seach form{ 
+    align-items: center;
+    justify-content: center;
 }
    
+   
+   #viewoftion a{
+    text-decoration: none;
+    color: black;
+   align-items: center;
+   }
    
 #citylist{
     margin-left: 15%;
     margin-right: 15%;
+    
      
 }
 #citylist img{
@@ -31,7 +86,8 @@ background-attachment: fixed;
     padding-bottom: 4%;
     padding-left: 4%;
     padding-right: 4%;
-   
+    border: 1px;
+    border-radius: 20%;
 }
      
 

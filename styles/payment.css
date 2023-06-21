@@ -6,7 +6,36 @@ img {
     background-color: rgb(132,136,139);
     height: 20%;
     width: 50%;
-  
+}
+#footerdiv{
+    background-color:rosybrown;
+    text-align: center;
+    position: sticky;
+    bottom: 0px;
+}
+#contactdiv{
+    float: left;
+    margin: 1%;
+    
+}
+#contactdiv a {
+    text-decoration: none;
+    color: black;
+}
+#text1{
+    display: inline-block;   
+}
+
+#socialmedia{
+    float: right;
+ padding: 2px;
+}
+#socialmedia a{
+    text-decoration: none;
+}
+#contactdiv{
+    float: left;
+    margin: 1%;
 }
 #innerdiv{
     padding-top: 2%;
@@ -17,8 +46,26 @@ img {
 #persiondetails{
     margin: 2%;
 }
-#headerdiv ,#socialmedia {
-    background-color: rosybrown;
+#headerdiv { 
+  
+    width: 100vw;
+    background-color:rosybrown ;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    
+} 
+#headerdiv a {
+    color: black;
+}
+#login {
+    margin-right: 3%;
+    margin-top: 2% ;
+    margin-bottom: 2%;
+    text-decoration: none;
+
+
 }
 #Tariff{
     border: 1px solid black ;
@@ -26,5 +73,8 @@ img {
     padding: 1%;
     margin: 2%;
    border-radius: 5px;
-   
+}
+#Payment a{
+    text-decoration: none;
+    color: black;
 }

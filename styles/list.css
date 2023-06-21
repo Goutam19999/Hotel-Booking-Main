@@ -1,20 +1,94 @@
 #mapview img {
     height: auto ;
     width: auto;
+    display: none;
 }
 img {
     height: 200px;
     width: 200px;
 }
-#headerdiv {
-    background-color: rosybrown;
+#headerdiv { 
+  
+    width: 100vw;
+    background-color:rosybrown ;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    
+} 
+#headerdiv a {
+    color: black;
 }
+#login {
+    margin-right: 3%;
+    margin-top: 2% ;
+    margin-bottom: 2%;
+    text-decoration: none;
+
+
+}
+#listmenu{
+   display: flex;
+   flex-wrap: wrap;
+
+    
+}
+
 #listmenu div{
  background-color: rgb(132,136,139);
  width: 40%;
- margin: 2%;
+ margin: 4%;
+
 }
-#socialmedia {
-    background-color: rosybrown;
+#footerdiv{
+    background-color:rosybrown;
+    text-align: center;
+    position: sticky;
+    bottom: 0px;
+   
 }
+#contactdiv{
+    float: left;
+    margin: 1%;
     
+}
+#contactdiv a {
+    text-decoration: none;
+    color: black;
+}
+#text1{
+    display: inline-block;   
+}
+
+#socialmedia{
+    float: right;
+ padding: 2px;
+}
+#socialmedia a{
+    text-decoration: none;
+}
+#unorderlist a{
+   text-decoration: none;
+   color: black;
+   padding: 20px;
+    
+}
+#unorderlist li{ 
+    display: inline-block;
+    
+}
+
+#unorderlist ul{
+    list-style-type: none;
+    padding-top: 2px;
+    
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+
+#innerdiv{
+   width: 100vw;
+   height: auto;
+}

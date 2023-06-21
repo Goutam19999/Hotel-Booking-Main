@@ -2,8 +2,56 @@ img{
     height: 500px;
     width: 500px;
 }
-#headerdiv ,#socialmedia {
-    background-color: rosybrown;
+#headerdiv { 
+  
+    width: 100vw;
+    background-color:rosybrown ;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    
+} 
+#headerdiv a {
+    color: black;
+}
+#login {
+    margin-right: 3%;
+    margin-top: 2% ;
+    margin-bottom: 2%;
+    text-decoration: none;
+
+
+}
+#footerdiv{
+    background-color:rosybrown;
+    text-align: center;
+    position: sticky;
+    bottom: 0px;
+}
+#contactdiv{
+    float: left;
+    margin: 1%;
+    
+}
+#contactdiv a {
+    text-decoration: none;
+    color: black;
+}
+#text1{
+    display: inline-block;   
+}
+
+#socialmedia{
+    float: right;
+ padding: 2px;
+}
+#socialmedia a{
+    text-decoration: none;
+}
+#contactdiv{
+    float: left;
+    margin: 1%;
 }
 #innerdiv {
     padding-left: 4%;
