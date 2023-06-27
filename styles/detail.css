@@ -28,23 +28,23 @@ img{
     text-align: center;
     position: sticky;
     bottom: 0px;
+    display: flex;
+    justify-content: space-between;
 }
 #contactdiv{
-    float: left;
-    margin: 1%;
-    
+    order: 1;
+    margin: 1%;   
 }
 #contactdiv a {
     text-decoration: none;
     color: black;
 }
 #text1{
-    display: inline-block;   
+    order: 2;   
 }
-
 #socialmedia{
-    float: right;
- padding: 2px;
+  order: 3;
+ padding: 1%;
 }
 #socialmedia a{
     text-decoration: none;
@@ -59,4 +59,29 @@ img{
 }
 #innerdiv img {
     padding-top: 1%;
+} 
+#hotelform{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    align-items: center;
+}
+#div1{
+    display: flex;
+    width: 75%;
+    height: 100%;
+    border-right:1px solid black ;
+    justify-content: center;
+}
+
+#formtable{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+table tr td {
+    padding-top: 10%;
+    padding-bottom: 10%;
 }

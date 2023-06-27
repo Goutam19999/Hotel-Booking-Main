@@ -15,18 +15,34 @@
            
         </div>
         <div id="innerdiv">
+            <div id="hotelform">
             <div id="div1">
 <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt=""> <br>
 </div>
-<div>
+<div id="formtable">
 <form action="payment.html">
-   Adults <input type="number" id="number" name="number" min="1"> <br>
-   Name <input type="text" id="name" name="name" required><br>
-   From Date <input type="date" required><br>
-   To Date <input type="date" required> <br>
-   Total <input readonly type="number"> <br>
-   <input type="submit" 
+    <table>
+        <tr>
+            <td>Adults <td><input type="number" id="number" name="number" min="1"></td></td>
+        </tr>
+        <tr>
+            <td>Name <td><input type="text" id="name" name="name" required></td></td>
+        </tr>
+        <tr>
+            <td>From Date <td><input type="date" required></td></td>
+        </tr>
+        <tr>
+            <td>To Date<td><input type="date" required></td></td>
+        </tr>
+        <tr>
+            <td>Total <td><input readonly type="number"></td></td>
+        </tr>
+        <tr>
+           <td></td> <td><input type="button" value="Book Now"  ></td>
+        </tr>
+    </table>
 </form>
+</div>
 </div>
 <div>
 <h3>Radisson Blu Hotel</h3>

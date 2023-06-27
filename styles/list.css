@@ -1,6 +1,8 @@
 #mapview img {
     height: auto ;
     width: auto;
+}
+#mapview{
     display: none;
 }
 img {
@@ -30,40 +32,46 @@ img {
 }
 #listmenu{
    display: flex;
-   flex-wrap: wrap;
-
-    
+   flex-wrap: wrap;    
 }
-
-#listmenu div{
- background-color: rgb(132,136,139);
+.item1,.item2,.item3{
+ background-color: lightgrey;
  width: 40%;
  margin: 4%;
-
+ display: flex;
+ flex-direction: row;
 }
+#hoteldetail2 ,#hoteldetail3 ,#hoteldetail1 {
+    padding-left: 2%;
+}
+#hoteldetail1 a{
+    text-decoration: none;
+    color: black;
+}
+
 #footerdiv{
     background-color:rosybrown;
     text-align: center;
     position: sticky;
     bottom: 0px;
-   
+   display: flex;
+   justify-content: space-between;
 }
 #contactdiv{
-    float: left;
-    margin: 1%;
-    
+   order: 1;
+   padding: 1%;  
 }
 #contactdiv a {
     text-decoration: none;
     color: black;
 }
 #text1{
-    display: inline-block;   
+    order: 2;
 }
 
 #socialmedia{
-    float: right;
- padding: 2px;
+  order: 3;
+  padding: 1%;
 }
 #socialmedia a{
     text-decoration: none;
