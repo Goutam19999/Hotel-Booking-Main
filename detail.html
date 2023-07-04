@@ -5,15 +5,19 @@
     <title>Details</title>
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/detail.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div id="container">
-        <div id="headerdiv"><a href="index.html">
-            <img id="logo" src="assests/images/logo.png" alt="" />
-        </a>
-            <a id="login" href= "login.html">Login</a>
-           
-        </div>
+        <div id="headerdiv">
+            <img id="logo" src="assests/images/logo.png"   alt=" "/>         
+	              
+            <div class="box">
+              <a   href="#divOne"> Login</a>
+            </div>
+           </div>
         <div id="innerdiv">
             <div id="hotelform">
             <div id="div1">
@@ -38,7 +42,7 @@
             <td>Total <td><input readonly type="number"></td></td>
         </tr>
         <tr>
-           <td></td> <td><input type="button" value="Book Now"  ></td>
+           <td></td> <td id="td1"><input id="bookbtn" type="button" value="Book Now"  ></td>
         </tr>
     </table>
 </form>
@@ -64,8 +68,45 @@
         </div>
         <div id="footerdiv"> 
             <div id="contactdiv">
-            <a  href="contact.html"> Contact Us</a>
-        </div>
+                <a   href="#divtwo"> Contact Us</a>
+              </div>
+              <div class="overlay5" id="divOne">
+                <div class="wrapper2">
+                  <h4>Please Login</h4><a class="close" href="#">&times;</a>
+                  <div class="content">
+                    <div class="container2">
+                      <form><div id="form2">
+                        <label>Username:</label>
+                        <input id="text2" placeholder="Enter Username" type="text" required>
+                        <label>Password:</label>
+                        <input placeholder="Enter Password" type="password" required>
+                      </div>
+                        <input type="submit" value="Login">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="overlay5" id="divtwo">
+                <div class="wrapper2">
+                  <h5>Get in touch</h5><a class="close" href="#">&times;</a>
+                  <div class="content">
+                    <div class="container2">
+                      <div id="contacttext">
+                        <div id="piteam">
+                      <p >Thank you for reaching out!!!  <br>
+                      Please enter your email and we will get back to you.</p>
+                    </div>
+                      <form>
+                        <label>Email:</label>
+                        <input id="text3" placeholder="Enter your mail id" type="text" required>
+                      </div>
+                        <input id="contactsubmit" type="submit" value="Submit">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
         <div id="socialmedia">
             <a target="_blank" href="https://www.facebook.com">  
             <img src="assests/images/facebook.png"   alt=""> 

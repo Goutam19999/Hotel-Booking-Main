@@ -3,46 +3,58 @@
     width: auto;
 }
 #mapview{
-    display: none;
+    visibility: hidden;
+    opacity: 0;
 }
+#mapview:target {
+    visibility: visible;
+    opacity: 1;
+  }
 img {
     height: 200px;
     width: 200px;
 }
 #headerdiv { 
-  
+    order: 1;
     width: 100vw;
     background-color:rosybrown ;
     position: sticky;
-    top: 0px;
+    top: 0;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 } 
+#logo{
+    margin-left: 2%;
+    order: 1;
+}
 #headerdiv a {
     color: black;
-}
-#login {
-    margin-right: 3%;
-    margin-top: 2% ;
-    margin-bottom: 2%;
     text-decoration: none;
-
-
+}
+.box {
+    margin-right: 3%;
+    order: 3;
+    text-transform: uppercase;
+    padding: 4px;
+    border-radius: 5px;
 }
 #listmenu{
    display: flex;
-   flex-wrap: wrap;    
+   flex-wrap: wrap;
+       
 }
 .item1,.item2,.item3{
  background-color: lightgrey;
- width: 40%;
+ width: 40%; 
  margin: 4%;
  display: flex;
  flex-direction: row;
 }
+
 #hoteldetail2 ,#hoteldetail3 ,#hoteldetail1 {
-    padding-left: 2%;
+     padding-left: 3%; 
+     width: 60%;
 }
 #hoteldetail1 a{
     text-decoration: none;
@@ -51,19 +63,26 @@ img {
 
 #footerdiv{
     background-color:rosybrown;
-    text-align: center;
+    align-items: center;
     position: sticky;
     bottom: 0px;
    display: flex;
    justify-content: space-between;
 }
 #contactdiv{
-   order: 1;
-   padding: 1%;  
+    order: 1;
+    align-items: center;
+    padding-left: 2%;  
 }
 #contactdiv a {
     text-decoration: none;
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+   padding: 2px;
+    border-radius: 5px; 
 }
 #text1{
     order: 2;
@@ -76,27 +95,168 @@ img {
 #socialmedia a{
     text-decoration: none;
 }
-#unorderlist a{
-   text-decoration: none;
-   color: black;
-   padding: 20px;
+#unorderlist{
+   display: flex;
+   justify-content: center;
+   position: sticky;
+    top: 5px;
+}
+input[type="radio"]{
+    display: none;
+}
+ #unorderlist label{
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    padding: 7px 30px; 
+     margin : 50px; 
+}
+#unorderlist label a{
+    text-decoration: none;
+    color: black;
     
 }
-#unorderlist li{ 
-    display: inline-block;
-    
+input[type="radio"]:checked + label{
+    background-color:lightblue ;
+    color: #f1f1f1;
 }
-
-#unorderlist ul{
-    list-style-type: none;
-    padding-top: 2px;
-    
-    overflow: hidden;
-    text-align: center;
-    justify-content: center;
+input[type="radio"]:checked + label:before {
+    background-color:#f1f1f1 ;
+    color: #403e3d;
 }
 
 #innerdiv{
    width: 100vw;
    height: auto;
 }
+.item1:hover{
+    background: rosybrown;
+}
+.item2:hover{
+    background: rosybrown;
+}
+.item3:hover{
+    background: rosybrown;
+}
+
+
+.box {
+    background-color: #f1f1f1;
+   }
+   .button {
+     font-size: 1em;
+     padding: 10px 25px;
+     color: #403e3d;
+     text-decoration: none;
+     cursor: pointer;
+     transition: all 0.3s ease-out;
+     background: #fff;
+     border-radius: 5px;
+   }
+   .overlay5 {
+     position: fixed;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     transition: opacity 500ms;
+     visibility: hidden;
+     opacity: 0;
+   }
+   .overlay5:target {
+     visibility: visible;
+     opacity: 1;
+   }
+   .wrapper2 {
+     margin: 70px auto;
+     padding: 20px;
+     background: #e7e7e7;
+     border-radius: 5px;
+     width: 30%;
+     position: relative;
+     transition: all 5s ease-in-out;
+   }
+   .wrapper2 h4  {
+    margin-top: -10px; 
+     color: #333;
+    padding-left: -50px;
+   }
+   .wrapper2 .close {
+     position: absolute;
+     top: 15px;
+     right: 20px;
+     transition: all 200ms;
+     font-size: 20px;
+     font-weight: bold;
+     text-decoration: none;
+     color: #333;
+   }
+   .wrapper2 .close:hover {
+     color: #06D85F;
+   }
+   .wrapper2 .content {
+     max-height: 30%;
+     overflow: auto;
+   }
+  .conctainer2 {
+     border-radius: 5px;
+     background-color: #e7e7e7;
+     padding: 20px 0;
+   }
+   .container2 form { 
+      overflow-y: hidden;
+   
+   }
+     #form2{
+     border-top: 1px ;
+     border-top: 1px solid rgb(54, 47, 47);
+     border-bottom: 1px solid rgb(54, 47, 47);
+     } 
+   #form label {
+     font-weight: 300;
+     letter-spacing: 3px;
+   }
+   #text2, #text3, input[type=password]{
+     width: 60%;
+     padding: 8px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     margin-left: 20px;
+     resize: vertical;
+   }
+   #contactsubmit  {
+     background-color: darkcyan;
+     color: black;
+     margin-left: 70%;
+     margin-top: 10px;   
+     padding:  5px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 15px;
+     letter-spacing: 3px;
+   } 
+   input[type="submit"]{
+     background-color: #06D85F;
+     color: black;
+     
+     margin-top: 20px;   
+     padding:  5px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 15px;
+     letter-spacing: 3px;
+   }
+   #contacttext{
+     border-top: 1px solid rgb(54, 47, 47);
+       border-bottom: 1px solid rgb(54, 47, 47);
+   }
+   .wrapper2 h5 {
+     margin-right: 60%;
+   }
+   .wrapper2 h4{
+     margin-right: 50%;
+   }
