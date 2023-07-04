@@ -1,19 +1,24 @@
-<!DOCTYPE html>
-<html >
-<head>
-   
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Details</title>
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/detail.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <div id="container">
         <div id="headerdiv">
             <img id="logo" src="assests/images/logo.png"   alt=" "/>         
-	              
             <div class="box">
               <a   href="#divOne"> Login</a>
             </div>
@@ -21,8 +26,28 @@
         <div id="innerdiv">
             <div id="hotelform">
             <div id="div1">
-<img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt=""> <br>
-</div>
+                <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-o/01/fa/51/70/r-the-spa.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-w/0e/b2/64/3f/radisson-blu-plaza-delhi.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+         </div>
 <div id="formtable">
 <form action="payment.html">
     <table>
@@ -51,7 +76,164 @@
 <div>
 <h3>Radisson Blu Hotel</h3>
 <p>RATING</p>
-<p>5 Star</p>
+<span class="fa fa-star  checked"></span>
+<span class="fa fa-star  checked"></span>
+<span class="fa fa-star  checked"></span>
+<span class="fa fa-star  checked "></span>
+<span class="fa fa-star   checked"></span>
+<h4>AMENITES</h4>
+<ul>
+    <li>Room Service</li>
+    <li>Resturent</li>
+    <li>Business Center</li>
+    <li>Fitness Center</li>
+    <li>Pool</li>
+    
+</ul>
+</div>
+<h4> DESCRIPTION</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur odio veniam, nisi deleniti beatae quia veritatis ad consequatur, id quam est! Eligendi doloribus sit accusantium iure adipisci atque molestias cupiditate.</p>
+
+        </div>
+        <div id="footerdiv"> 
+            <div id="contactdiv">
+                <a   href="#divtwo"> Contact Us</a>
+              </div>
+              <div class="overlay5" id="divOne">
+                <div class="wrapper2">
+                  <h4>Please Login</h4><a class="close" href="#">&times;</a>
+                  <div class="content">
+                    <div class="container2">
+                      <form><div id="form2">
+                        <label>Username:</label>
+                        <input id="text2" placeholder="Enter Username" type="text" required>
+                        <label>Password:</label>
+                        <input placeholder="Enter Password" type="password" required>
+                      </div>
+                        <input type="submit" value="Login">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="overlay5" id="divtwo">
+                <div class="wrapper2">
+                  <h5>Get in touch</h5><a class="close" href="#">&times;</a>
+                  <div class="content">
+                    <div class="container2">
+                      <div id="contacttext">
+                        <div id="piteam">
+                      <p >Thank you for reaching out!!!  <br>
+                      Please enter your email and we will get back to you.</p>
+                    </div>
+                      <form>
+                        <label>Email:</label>
+                        <input id="text3" placeholder="Enter your mail id" type="text" required>
+                      </div>
+                        <input id="contactsubmit" type="submit" value="Submit">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <div id="socialmedia">
+            <a target="_blank" href="https://www.facebook.com">  
+            <img src="assests/images/facebook.png"   alt=""> 
+         </a>
+         <a target="_blank" href="https://www.instagram.com"> 
+            <img src="assests/images/instagram.png" alt="">
+         </a>
+         <a target="_blank" href="https://www.twitter.com"> 
+            <img src="assests/images/twitter.png" alt="">
+         </a>
+        </div>
+        <div id="text1">
+         <p>© 2020 ROOM SCARCH PVT LTD</p>
+        </div>
+        </div>
+    </div>
+   
+  </body>
+</html>
+<!-- <!DOCTYPE html>
+<html >
+<head>
+   
+    <title>Details</title>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/detail.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="container">
+        <div id="headerdiv">
+            <img id="logo" src="assests/images/logo.png"   alt=" "/>         
+            <div class="box">
+              <a   href="#divOne"> Login</a>
+            </div>
+           </div>
+        <div id="innerdiv">
+            <div id="hotelform">
+            <div id="div1">
+                <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-o/01/fa/51/70/r-the-spa.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-w/0e/b2/64/3f/radisson-blu-plaza-delhi.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+         </div>
+<div id="formtable">
+<form action="payment.html">
+    <table>
+        <tr>
+            <td>Adults <td><input type="number" id="number" name="number" min="1"></td></td>
+        </tr>
+        <tr>
+            <td>Name <td><input type="text" id="name" name="name" required></td></td>
+        </tr>
+        <tr>
+            <td>From Date <td><input type="date" required></td></td>
+        </tr>
+        <tr>
+            <td>To Date<td><input type="date" required></td></td>
+        </tr>
+        <tr>
+            <td>Total <td><input readonly type="number"></td></td>
+        </tr>
+        <tr>
+           <td></td> <td id="td1"><input id="bookbtn" type="button" value="Book Now"  ></td>
+        </tr>
+    </table>
+</form>
+</div>
+</div>
+<div>
+<h3>Radisson Blu Hotel</h3>
+<p>RATING</p>
+<span class="fa fa-star  checked"></span>
+<span class="fa fa-star  checked"></span>
+<span class="fa fa-star  checked"></span>
+<span class="fa fa-star  checked "></span>
+<span class="fa fa-star   checked"></span>
 <h4>AMENITES</h4>
 <ul>
     <li>Room Service</li>
@@ -124,4 +306,4 @@
         </div>
     </div>
 </body>
-</html>
+</html> -->
