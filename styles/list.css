@@ -3,11 +3,11 @@
     width: auto;
 }
 #mapview{
-    visibility: hidden;
+    display: none;
     opacity: 0;
 }
 #mapview:target {
-    visibility: visible;
+    display: contents;
     opacity: 1;
   }
 img {
@@ -60,7 +60,9 @@ img {
     text-decoration: none;
     color: black;
 }
-
+  .checked{
+    color: orange;
+  }
 #footerdiv{
     background-color:rosybrown;
     align-items: center;

@@ -1,6 +1,6 @@
-img{
-    height: 500px;
-    width: 500px;
+ #div1 img{
+    height: 350px;
+    width: 400px;
 }
 #headerdiv { 
     order: 1;
@@ -75,27 +75,38 @@ img{
     border: 1px solid black;
     align-items: center;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 #div1{
     display: flex;
-    width: 75%;
+    width: 70%;
     height: 100%;
     border-right:1px solid black ;
     justify-content: center;
     margin-bottom: 5px;
+    
+    /* animation:slider 9s infinite linear ; */
 }
-
+/* @keyframes slider{
+    0%{background-image: url("https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg");}
+    35%{background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/01/fa/51/70/r-the-spa.jpg);}
+    75%{ background-image: url(https://media-cdn.tripadvisor.com/media/photo-w/0e/b2/64/3f/radisson-blu-plaza-delhi.jpg);}
+} */
 #formtable{
     display: flex;
-    width: 25%;
+    width: 30%;
     height: 100%;
     display: flex;
     justify-content: center;
 }
 table tr td {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
+
+.checked{
+    color: orange;
+  }
 
 #bookbtn{
     border: 1px solid springgreen;
@@ -227,4 +238,6 @@ table tr td {
    .wrapper2 h4{
      margin-right: 50%;
    }
+   /* slider */
+
     
