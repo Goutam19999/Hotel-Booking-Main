@@ -1,62 +1,7 @@
+ 
  #div1 img{
-    height: 350px;
-    width: 400px;
-}
-#headerdiv { 
-    order: 1;
-    width: 100vw;
-    background-color:rosybrown ;
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} 
-#logo{
-    margin-left: 2%;
-    order: 1;
-}
-#headerdiv a {
-    color: black;
-    text-decoration: none;
-}
-.box {
-    margin-right: 3%;
-    order: 3;
-    text-transform: uppercase;
-    padding: 4px;
-    border-radius: 5px;
-}
-
-#footerdiv{
-    background-color:rosybrown;
-    text-align: center;
-    position: sticky;
-    bottom: 0px;
-    display: flex;
-    justify-content: space-between;
-}
-#contactdiv{   
-    order: 1;
-    border-radius: 5px; 
-    background-color: lightskyblue; 
-    align-items: center; 
-    padding: 2px;
-    margin-left: 2%;
-}
-#contactdiv a {
-    text-decoration: none;
-    color: black;
-}
-#text1{
-    order: 2;   
-}
-#socialmedia{
-  order: 3;
- padding: 1%;
-}
-#socialmedia a{
-    text-decoration: none;
+    height: 35rem;
+    width: 50rem;
 }
 #contactdiv{
     float: left;
@@ -71,19 +16,19 @@
 } 
 #hotelform{
     display: flex;
-    flex-direction: row;
-    border: 1px solid black;
+    justify-content: space-around;
+    border: 0.1rem solid black;
     align-items: center;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 #div1{
     display: flex;
     width: 70%;
     height: 100%;
-    border-right:1px solid black ;
+    border-right:0.1rem solid black ;
     justify-content: center;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
     
     /* animation:slider 9s infinite linear ; */
 }
@@ -98,146 +43,36 @@
     height: 100%;
     display: flex;
     justify-content: center;
+    font-size: 1.5rem;
+}
+table tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 table tr td {
-    padding-top: 5%;
-    padding-bottom: 5%;
+   padding: 1.2rem;   
 }
-
+#bookbtn{
+    border: 0.1rem solid springgreen;
+    color:springgreen ;
+    background: none;
+    padding: -0.8rem;
+}
+#hotelinfo{
+    font-size: 1.5rem;
+}
 .checked{
     color: orange;
   }
-
-#bookbtn{
-    border: 1px solid springgreen;
-    color:springgreen ;
-    background: none;
-}
+  #td1{
+  padding-left: 40%;
+  margin-top: -7%;
+  }
 #td1 :hover {
     background:springgreen ;
     color: #f1f1f1;
 }
-.box {
-    background-color: #f1f1f1;
-   }
-   .button {
-     font-size: 1em;
-     padding: 10px 25px;
-     color: #403e3d;
-     text-decoration: none;
-     cursor: pointer;
-     transition: all 0.3s ease-out;
-     background: #fff;
-     border-radius: 5px;
-   }
-   .overlay5 {
-     position: fixed;
-     top: 0;
-     bottom: 0;
-     left: 0;
-     right: 0;
-     transition: opacity 500ms;
-     visibility: hidden;
-     opacity: 0;
-   }
-   .overlay5:target {
-     visibility: visible;
-     opacity: 1;
-   }
-   .wrapper2 {
-     margin: 70px auto;
-     padding: 20px;
-     background: #e7e7e7;
-     border-radius: 5px;
-     width: 30%;
-     position: relative;
-     transition: all 5s ease-in-out;
-   }
-   .wrapper2 h4  {
-    margin-top: -10px; 
-     color: #333;
-    padding-left: -50px;
-   }
-   .wrapper2 .close {
-     position: absolute;
-     top: 15px;
-     right: 20px;
-     transition: all 200ms;
-     font-size: 20px;
-     font-weight: bold;
-     text-decoration: none;
-     color: #333;
-   }
-   .wrapper2 .close:hover {
-     color: #06D85F;
-   }
-   .wrapper2 .content {
-     max-height: 30%;
-     overflow: auto;
-   }
-  .conctainer2 {
-     border-radius: 5px;
-     background-color: #e7e7e7;
-     padding: 20px 0;
-   }
-   .container2 form { 
-      overflow-y: hidden;
-   
-   }
-     #form2{
-     border-top: 1px ;
-     border-top: 1px solid rgb(54, 47, 47);
-     border-bottom: 1px solid rgb(54, 47, 47);
-     } 
-   #form label {
-     font-weight: 300;
-     letter-spacing: 3px;
-   }
-   #text2, #text3, input[type=password]{
-     width: 60%;
-     padding: 8px;
-     border: 1px solid #ccc;
-     border-radius: 4px;
-     box-sizing: border-box;
-     margin-top: 6px;
-     margin-bottom: 16px;
-     margin-left: 20px;
-     resize: vertical;
-   }
-   #contactsubmit  {
-     background-color: darkcyan;
-     color: black;
-     margin-left: 70%;
-     margin-top: 10px;   
-     padding:  5px;
-     border: none;
-     border-radius: 5px;
-     cursor: pointer;
-     font-size: 15px;
-     letter-spacing: 3px;
-   } 
-   input[type="submit"]{
-     background-color: rgb(7, 58, 54);
-     color: black;
-     
-     margin-top: 20px;   
-     padding:  5px;
-     border: none;
-     border-radius: 5px;
-     cursor: pointer;
-     font-size: 15px;
-     letter-spacing: 3px;
-   }
-   #contacttext{
-     border-top: 1px solid rgb(54, 47, 47);
-       border-bottom: 1px solid rgb(54, 47, 47);
-   }
-   .wrapper2 h5 {
-     margin-right: 60%;
-   }
-   .wrapper2 h4{
-     margin-right: 50%;
-   }
-   /* slider */
 
-    
+   /* slider
+

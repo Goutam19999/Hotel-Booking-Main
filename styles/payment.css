@@ -5,13 +5,14 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    font-size: 1.5rem;
 }
 #middlediv{
     order: 2;
 }
 img {
-    max-height: 300px;
-    max-width: 270px;
+    max-height: 40rem;
+    max-width: 30rem;
 }
 #containdiv{
     display: flex;
@@ -25,35 +26,10 @@ img {
     padding-left: 2%;
     padding-right: 2%;
 }
-#footerdiv{
-    background-color:rosybrown;
-    position: sticky;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    order: 3;
-}
 #centerdiv{
-    padding-left: 2%;
-    padding-right: 2%;
-  margin: 4%;
-}
-#contactdiv{
-    order: 1; 
-    padding-left: 2%;   
-}
-
-#text1{
-   order: 2;   
-}
-
-#socialmedia{
-  order: 3;
+  padding-left: 2%;
   padding-right: 2%;
-}
-#socialmedia a{
-    text-decoration: none;
+margin: 4%;
 }
 #innerdiv{
     padding-top: 6%;
@@ -72,31 +48,7 @@ img {
 #persiondetails{
  padding-left: 2%;
 }
-#headerdiv { 
-    order: 1;
-    width: 100vw;
-    background-color:rosybrown ;
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} 
-#logo{
-    margin-left: 2%;
-    order: 1;
-}
-#headerdiv a {
-    color: black;
-    text-decoration: none;
-}
-.box {
-    margin-right: 3%;
-    order: 3;
-    text-transform: uppercase;
-    padding: 4px;
-    border-radius: 5px;
-}
+
 #Payment{
     padding-right: 2%;
 }
@@ -104,142 +56,9 @@ img {
     text-decoration: none;
     background: springgreen;
     color: #f1f1f1;
-    padding: 2px;
-    border-radius: 5px;
+    padding: .2rem;
+    border-radius: .5rem;
     opacity: 0.6;
    pointer-events: none;
 }
-
-.box {
-    background-color: #f1f1f1;
-   }
-   .button {
-     font-size: 1em;
-     padding: 10px 25px;
-     color: #403e3d;
-     text-decoration: none;
-     cursor: pointer;
-     transition: all 0.3s ease-out;
-     background: #fff;
-     border-radius: 5px;
-   }
-   .overlay5 {
-     position: fixed;
-     top: 0;
-     bottom: 0;
-     left: 0;
-     right: 0;
-     transition: opacity 500ms;
-     visibility: hidden;
-     opacity: 0;
-   }
-   .overlay5:target {
-     visibility: visible;
-     opacity: 1;
-   }
-   .wrapper2 {
-     margin: 70px auto;
-     padding: 20px;
-     background: #e7e7e7;
-     border-radius: 5px;
-     width: 30%;
-     position: relative;
-     transition: all 5s ease-in-out;
-   }
-   .wrapper2 h4  {
-    margin-top: -10px; 
-     color: #333;
-    padding-left: -50px;
-   }
-   .wrapper2 .close {
-     position: absolute;
-     top: 15px;
-     right: 20px;
-     transition: all 200ms;
-     font-size: 20px;
-     font-weight: bold;
-     text-decoration: none;
-     color: #333;
-   }
-   .wrapper2 .close:hover {
-     color: #06D85F;
-   }
-   .wrapper2 .content {
-     max-height: 30%;
-     overflow: auto;
-   }
-  .conctainer2 {
-     border-radius: 5px;
-     background-color: #e7e7e7;
-     padding: 20px 0;
-   }
-   .container2 form { 
-      overflow-y: hidden;
    
-   }
-     #form2{
-     border-top: 1px ;
-     border-top: 1px solid rgb(54, 47, 47);
-     border-bottom: 1px solid rgb(54, 47, 47);
-     } 
-   #form label {
-     font-weight: 300;
-     letter-spacing: 3px;
-   }
-   #text2, #text3, input[type=password]{
-     width: 60%;
-     padding: 8px;
-     border: 1px solid #ccc;
-     border-radius: 4px;
-     box-sizing: border-box;
-     margin-top: 6px;
-     margin-bottom: 16px;
-     margin-left: 20px;
-     resize: vertical;
-   }
-   #contactsubmit  {
-     background-color: darkcyan;
-     color: black;
-     margin-left: 70%;
-     margin-top: 10px;   
-     padding:  5px;
-     border: none;
-     border-radius: 5px;
-     cursor: pointer;
-     font-size: 15px;
-     letter-spacing: 3px;
-   } 
-   input[type="submit"]{
-     background-color: rgb(7, 58, 54);
-     color: black;
-     
-     margin-top: 20px;   
-     padding:  5px;
-     border: none;
-     border-radius: 5px;
-     cursor: pointer;
-     font-size: 15px;
-     letter-spacing: 3px;
-   }
-   #contacttext{
-     border-top: 1px solid rgb(54, 47, 47);
-       border-bottom: 1px solid rgb(54, 47, 47);
-   }
-   .wrapper2 h5 {
-     margin-right: 60%;
-   }
-   .wrapper2 h4{
-     margin-right: 50%;
-   }
-   #contactdiv{   
-    order: 1;
-    border-radius: 5px; 
-    background-color: lightskyblue; 
-    align-items: center; 
-    padding: 2px;
-    margin-left: 2%;
-}
-#contactdiv a {
-    text-decoration: none;
-    color: black;
-}
